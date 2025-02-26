@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["Traveling with you", "Paimon, best travel companion ever!"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusTypes = [ 'invisible'];//'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
