@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const activities = [name: 'over 58M Adventurers', type: ActivityType.Watching];
+const activities = [name: 'over 60M Adventurers', type: ActivityType.Watching];
 //const statusMessages = ["Ad astra abyssosque"];//["Traveling with you", "Paimon, best travel companion ever!"];
 const statusTypes = [ 'online'];//'dnd', 'idle'];
 let currentStatusIndex = 0;
